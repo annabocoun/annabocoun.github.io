@@ -59,10 +59,14 @@ export default function Lightbox({ images, startIndex, onClose }) {
       setScale(oldScale => {
         let newScale = oldScale - e.deltaY * 0.005;
         // User requested: cannot zoom out past original size (1x)
-        if (newScale < 1) newScale = 1;
-        if (newScale > 8) newScale = 8;
+        if (newScale <= 1) {
+          newScale = 1;
+          setPos({ x: 0, y: 0 }); // Instantly reset position to center
+        } else if (newScale > 8) {
+          newScale = 8;
+        }
         
-        if (newScale !== oldScale) {
+        if (newScale !== oldScale && newScale > 1) {
           const ratio = newScale / oldScale;
           setPos(p => ({
             x: p.x - (cursorX - rect.width / 2) * (ratio - 1),

@@ -113,10 +113,13 @@ a {
   padding: 0;
 }
 
-.lang-toggle svg.flag {
+.lang-toggle .flag {
   width: 28px;
-  height: 18px;
+  height: auto;
+  max-height: 18px;
+  object-fit: contain;
   border: 1px solid #ccc;
+  display: block;
 }
 
 .resume-list {
@@ -563,20 +566,23 @@ a {
    ABOUT ME PAGE IMAGE
    ========================================== */
 .about-me-container {
-  position: relative; /* Context for absolute image */
-}
-
-.about-me-image {
-  position: absolute;
-  top: 0; /* Aligned vertically with 'ABOUT ME' title */
-  right: 0; /* Aligned to right limit of text container */
-  width: 200px; /* Made smaller */
-  height: auto;
-  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .about-me-text {
-  max-width: 550px; /* Allow space for floating right image */
+  flex: 1;
+}
+
+.about-me-image {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
 }
 
 @keyframes fade-in-out {
