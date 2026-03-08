@@ -19,7 +19,7 @@ I'm mainly looking for work in and am actively interested in both character, cre
 In my spare time I study and read Japanese (6 years going strong!), obsess over DC comics, and during the winter I spend as much time as possible skiing.`,
     },
     contact: {
-      title: 'Contact',
+      title: 'Contact Me',
       email: 'annabocoun@gmail.com',
       phone: '+420 731 227 767',
       clickToCopy: 'Click to copy',
@@ -47,16 +47,28 @@ In my spare time I study and read Japanese (6 years going strong!), obsess over 
         'Taiyaki Illustrations for M.Y. Japan (2025)',
         'Currently: Character Concept Art for indie game with Blank Name Studio',
       ],
-      paintingItems: ['Procreate (Main)', 'Clip Studio Paint', 'Adobe Photoshop'],
-      animationItems: ['Toonboom Harmony (Main)', 'Moho', 'Adobe Animate'],
-      videoItems: ['DaVinci Resolve (Main)', 'Adobe Premiere Pro', 'Nuke'],
+      paintingItems: [
+        <><span className="main-tag">Procreate (Main)</span></>, 
+        'Clip Studio Paint', 
+        'Adobe Photoshop'
+      ],
+      animationItems: [
+        <><span className="main-tag">Toonboom Harmony (Main)</span></>, 
+        'Moho', 
+        'Adobe Animate'
+      ],
+      videoItems: [
+        <><span className="main-tag">DaVinci Resolve (Main)</span></>, 
+        'Adobe Premiere Pro', 
+        'Nuke'
+      ],
       otherItems: ['Unity', 'Resolume Arena', 'Audacity'],
     },
     projects: {
       lotr: {
         title: 'LOTR IN THE STYLE OF SATOSHI MATSUURA',
         subtitle: '2025',
-        description: `In a two person team during the Anomalia Character Design Course, me and my colleague split the main cast of Lord of the Rings in two and redesigned them in the style of Satoshi Matsuura.
+        description: `In a two person team during the Anomalia Character Design Course with Len Simon, me and my colleague split the main cast of Lord of the Rings in two and redesigned them in the style of Satoshi Matsuura.
 
 The main goal of the project was to push silhouette and design, as well as test our adaptability - not only to Matsuura's style, but also to each other.
 
@@ -133,128 +145,140 @@ Experimental sketches - redesigning Tim and Mr. Moka from the 2007 animated film
     name: 'Anna Bocoun',
     nav: {
       contact: 'Kontakt',
-      about: 'O mne',
+      about: 'O mně',
       resume: 'CV',
     },
     home: {
-      intro: 'Portfolio konceptualniho umeni',
+      intro: 'Portfolio konceptuálního umění',
     },
     about: {
-      title: 'O mne',
-      body: `Jsem Anna Bocoun, studentka tretiho rocniku BFA v oboru Animace a Vizualni efekty, se zamerim na vizualni vyvoj a konceptualni umeni. Vyrostla jsem v USA, ale v soucasne dobe pusobim v Praze.
+      title: 'O mně',
+      body: `Jsem Anna Bocoun, studentka třetího ročníku BFA v oboru Animace a Vizuální efekty, se zaměřením na vizuální vývoj a konceptuální umění. Vyrostla jsem v USA, ale v současné době působím v Praze.
 
-Hledam praci a aktivne se zajimam o character design, creature design a environmentalni konceptualni umeni. Doufam, ze budu pracovat v jakemkoli druhu medii vcetne filmu, televize a herniho designu. Miluju prozkoumavani zajimavych napadu skrze design a spolupraci s druhymi v tymu.
+Hledám práci a aktivně se zajímám o character design, creature design a environmentální konceptuální umění. Doufám, že budu pracovat v jakémkoli druhu médií včetně filmu, televize a herního designu. Miluju prozkoumávání zajímavých nápadů skrze design a spolupráci s druhými v týmu.
 
-Ve volnem case studuji a ctum japonsky (jiz 6 let!), nezivotne sleduji DC komiksy a v zime travim co nejvice casu na lyzich.`,
+Ve volném čase studuji a čtu japonsky (již 6 let!), dychtivě sleduji DC komiksy a v zimě trávím co nejvíce času na lyžích.`,
     },
     contact: {
-      title: 'Kontakt',
+      title: 'Kontaktujte Mě',
       email: 'annabocoun@gmail.com',
       phone: '+420 731 227 767',
-      clickToCopy: 'Klikni pro kopirovani',
-      copied: 'Skopirovano!',
+      clickToCopy: 'Klikni pro kopírování',
+      copied: 'Zkopírováno!',
     },
     resume: {
       title: 'CV',
-      education: 'Vzdelani',
-      workExperience: 'Pracovni zkusenosti',
+      education: 'Vzdělání',
+      workExperience: 'Pracovní zkušenosti',
       programs: 'Programy',
-      paintingPrograms: 'Kreslici programy',
-      animationPrograms: 'Animacni programy',
-      videoEditingPrograms: 'Programy pro strih videa',
-      other: 'Dalsi',
+      paintingPrograms: 'Kreslící programy',
+      animationPrograms: 'Animační programy',
+      videoEditingPrograms: 'Programy pro střih videa',
+      other: 'Další',
       educationItems: [
         'DCE Idea School (maturita 2022)',
-        'Skola Michael: Graficky design (2019 - 2021)',
-        'Letni vytvarne tabory Sutnarka (2022)',
-        'Prague City University: Vyhradni media vyhradniho umeni (2022 - 2023)',
-        'VSKK: Animace a Vizualni efekty (2023 -)',
+        'Škola Michael: Grafický design (2019 - 2021)',
+        'Letní výtvarné tábory Sutnarka (2022)',
+        'Prague City University: Fine Arts Experimental Media (2022 - 2023)',
+        'VŠKK: Animace a Vizuální efekty (2023 -)',
         'Anomalia: Kurz character designu s Len Simonem (2025)',
       ],
       workItems: [
-        'Ilustrace detske knihy: Chuuko to Rohonesu (2023)',
+        'Ilustrace dětské knihy: Chuuko to Rohonesu (2023)',
         'Ilustrace taiyaki pro M.Y. Japan (2025)',
-        'Aktualne: Character concept art pro indie hru se studiem Blank Name Studio',
+        'Aktuálně: Character concept art pro indie hru se studiem Blank Name Studio',
       ],
-      paintingItems: ['Procreate (hlavni)', 'Clip Studio Paint', 'Adobe Photoshop'],
-      animationItems: ['Toonboom Harmony (hlavni)', 'Moho', 'Adobe Animate'],
-      videoItems: ['DaVinci Resolve (hlavni)', 'Adobe Premiere Pro', 'Nuke'],
+      paintingItems: [
+        <><span className="main-tag">Procreate (hlavní)</span></>, 
+        'Clip Studio Paint', 
+        'Adobe Photoshop'
+      ],
+      animationItems: [
+        <><span className="main-tag">Toonboom Harmony (hlavní)</span></>, 
+        'Moho', 
+        'Adobe Animate'
+      ],
+      videoItems: [
+        <><span className="main-tag">DaVinci Resolve (hlavní)</span></>, 
+        'Adobe Premiere Pro', 
+        'Nuke'
+      ],
       otherItems: ['Unity', 'Resolume Arena', 'Audacity'],
     },
     projects: {
       lotr: {
         title: 'LOTR VE STYLU SATOSHI MATSUURY',
         subtitle: '2025',
-        description: `V dvouclennem tymu behem kurzu Character Design v Anomalii jsme si s kolegyni rozdelili hlavni obsazeni Pana prstenu a pretvorili je ve stylu Satoshiho Matsuury.
+        description: `Ve dvoučlenném týmu během kurzu Character Design v Anomálii s Len Simonem jsme si s kolegyní rozdělili hlavní obsazení Pána prstenů a přetvořili ho ve stylu Satoshiho Matsuury.
 
-Hlavnim cilem projektu bylo prosazovat siluetu a design a take testovat nasi prizpusobivost - nejen ke stylu Matsuury, ale take k sobe navzajem.
+Hlavním cílem projektu bylo posílit siluetu a design a také otestovat naši přizpůsobivost - nejen ke stylu Matsuury, ale také k sobě navzájem.
 
-Projekt je stale ve vyrobe, planujeme spolecne vytvorit dalsi postavy, ilustrace a vycistit finalizovane designy.
+Projekt je stále v produkci, plánujeme společně vytvořit další postavy, ilustrace a vyčistit finalizované designy.
 
-Plna sestava ctrnacti oblibenenych postav a hlavniho obsazeni, dalsich sedm provedla Julie Zemlickova.`,
+Plná sestava čtrnácti oblíbených postav a hlavního obsazení, dalších sedm provedla Julie Zemličková.`,
       },
       scientists: {
-        title: 'VEDCI',
+        title: 'VĚDCI',
         subtitle: '2025',
-        description: `Osobni projekt character designu o trich souперничicich zlych vednich, kteri touzi po navzajem se zabiti.
+        description: `Osobní projekt character designu o třech soupeřících zlých vědcích, kteří touží po navzájem se zabití.
 
-Vychazejici z hercu a bavicu Jeffa Warda, Morgan Turner a Hulka Hogana, s referencemi z Johnny Test a Davida MacDougalla. Cilem bylo experimentovat s jazykem tvaru a dale testovat prizpusobivost ruznym stylum.`,
+Vycházející z herců a bavičů Jeffa Warda, Morgan Turner a Hulka Hogana, s referencemi z Johnny Test a Davida MacDougalla. Cílem bylo experimentovat s jazykem tvarů a dále testovat přizpůsobivost různým stylům.`,
       },
       batman: {
-        title: 'BATMAN JE NEJLEPSI MUZ',
+        title: 'BATMAN JE NEJLEPŠÍ MUŽ',
         subtitle: 'Character Design a 2D Animace 2025',
-        description: `Zahajeno a dokonceno behem dvou tydnu, tato kratka animacni cviceni predstavovala zpusob, jak experimentovat se sloucenim dvou digitalnich animacnich stylu: 3D a 2D.
+        description: `Zahájeno a dokončeno během dvou týdnů, toto krátké animační cvičení představovalo způsob, jak experimentovat se sloučením dvou digitálních animačních stylů: 3D a 2D.
 
-Jedine co Batman chce je sednout si na svou pohovku, ktera je ale obsazena nahobylym psem. Musi tak celit jak psovi, tak majiteli, aby si ziskal sve pravoplatne misto.`,
+Jediné co Batman chce, je sednout si na svou pohovku, která je ale obsazena nahodilým psem. Musí tak čelit jak psovi, tak majiteli, aby si získal své právoplatné místo.`,
       },
       'wake-up-call': {
-        title: 'BUDICI HOVOR',
+        title: 'BUDÍCÍ HOVOR',
         subtitle: '2025',
-        description: `Kratky film druheho rocniku, 'Wake-up Call' sleduje malou divku tajemnym cirkusem, ktery ji nabizi cestu zpet do jejibo sveta.
+        description: `Krátký film druhého ročníku, 'Wake-up Call' sleduje malou dívku tajemným cirkusem, který jí nabízí cestu zpět do jejího světa.
 
-Mym zamerem bylo prozkoumat styl UPA v kombinaci s vlastnim stylem a vytvorit zajimave smycky a vtipne animace zvirat.`,
+Mým záměrem bylo prozkoumat styl UPA v kombinaci s vlastním stylem a vytvořit zajímavé smyčky a vtipné animace zvířat.`,
       },
       robot: {
         title: 'D3AC0N',
         subtitle: 'Character Design 2025',
-        description: `Prozkoumani postav a vizualni vyvoj pro postavu finalniho BFA filmu spoluzaka - zahradnicky robot.
+        description: `Prozkoumání postav a vizuální vývoj pro postavu finálního BFA filmu spolužáka - zahradnický robot.
 
-Mym hlavnim zamerem bylo prozkoumat funkcnost propletenou se siluetou a jak vytvorit postavu, ktera by mohla byt bud nasilna nebo poklidna.`,
+Mým hlavním záměrem bylo prozkoumat funkčnost propletenou se siluetou a jak vytvořit postavu, která by mohla být buď násilná nebo poklidná.`,
       },
       'veggie-sea': {
-        title: 'ZELNINOVE MORE',
+        title: 'ZELENINOVÉ MOŘE',
         subtitle: '2025',
-        description: `Navrzen kolem pozadavku tridy a vymyslen pri nacrtani paprik pro zachyti ze zivota, projekt 'Veggie Sea' je prizkumem toho, co by se stalo, kdyby morsti tvorove byli vytvoreni ze zeleniny nebo ovoce. Pokracujici prizkum techto designu vedl k zajimavym postavickam a moznosti hlubsiho vypraveni.`,
+        description: `Navržen kolem požadavků třídy a vymyšlen při náčrtech paprik pro zátiší, projekt 'Veggie Sea' je průzkumem toho, co by se stalo, kdyby mořští tvorové byli vytvořeni ze zeleniny nebo ovoce. Pokračující průzkum těchto designů vedl k zajímavým postavičkám a možnosti hlubšího vyprávění.`,
       },
       fishman: {
-        title: 'RYBIZ RYBAREM',
-        subtitle: 'Navrh a realizace loutek 2024',
-        description: `Finalizovano, profesionalni ateliove fotografovani ceka.`,
+        title: 'RYBMAN RYBÁŘEM',
+        subtitle: 'Návrh a realizace loutek 2024',
+        description: `Finalizováno, profesionální ateliérové fotografování čeká.`,
       },
       kegare: {
         title: 'KEGARE',
-        subtitle: 'Vizualni vyvoj a Character Design 2024',
-        description: `Vytvoren behem semestralnich studijnich pobytov v Universidade de Lusofona v Portugalsku, 'KEGARE' je finalnim filmem 3. rocniku s delkou 2:34 min. Zatimco finalni animace a pribeh byl vytvoren tymem tri lidi, nasledujici obrazky podrobne popisuji muj character design a vizualni vyvoj behem celeho procesu pred- a post-produkce.
+        subtitle: 'Vizuální vývoj a Character Design 2024',
+        description: `Vytvořen během semestrálních studijních pobytů v Universidade de Lusófona v Portugalsku, 'KEGARE' je finálním filmem 3. ročníku s délkou 2:34 min. Zatímco finální animace a příběh byl vytvořen týmem tří lidí, následující obrázky podrobně popisují můj character design a vizuální vývoj během celého procesu před- a post-produkce.
 
 Synopse filmu:
 
-"Mlada divka se setka s ricnim bozstvem zatizenym znecistenim. Jak si prohlubuje hluboky vztah, pripravuji se na konfrontaci s dospelym zodpovednym za kontaminaci reky. Spolecne nepolevu, dokud nezabraneji jedinci, ktery zpusobil skodu tomuto zivotne dulezitemu zdroji zivota."`,
+"Mladá dívka se setká s říčním božstvem zatíženým znečištěním. Jak si prohlubují hluboký vztah, připravují se na konfrontaci s dospělým zodpovědným za kontaminaci řeky. Společně nepoleví, dokud nezabrání jedinci, který způsobil škodu tomuto životně důležitému zdroji života."`,
       },
       chuuko: {
         title: 'CHUUKO TO ROHONESU',
         subtitle: 'Character Design a Ilustrace 2023',
-        description: `'Chuuko to Rohonesu' je detska kniha adaptovana z preexistujiciho pribehu stejneho jmena. Byla jsem pozadana navrhnout, ilustrovat a namluvit knihu od zacatku do konce pro sveho japonskemu ucitele a jeho dalsi tridy.
+        description: `'Chuuko to Rohonesu' je dětská kniha adaptovaná z preexistujícího příběhu stejného jména. Byla jsem požádána navrhnout, ilustrovat a namluvit knihu od začátku do konce pro svého japonskému učitele a jeho další třídy.
 
-Pribeh sleduje Chuuko, jak hleda meteor, a ziskava pomoc carodejnice a Rohonesu (kdo je LOCHNESSkova prisera) za ucelem jeho nalezeni a dopraveni domu sve matce.`,
+Příběh sleduje Chuuko, jak hledá meteor, a získává pomoc čarodějnice a Rohonesu (kdo je Lochnesská příšera) za účelem jeho nalezení a dopravení domů své matce.`,
       },
       various: {
-        title: 'RUZNE',
-        subtitle: 'Ruzne pruzkumy',
-        description: `Prizkum navrhu prostredi, zahradni domek ve dne a v noci.
+        title: 'RŮZNÉ',
+        subtitle: 'Různé průzkumy',
+        description: `Průzkum návrhu prostředí, zahradní domek ve dne a v noci.
 
-Experimentovani s archetypovym designem: pocatecni navrh pro celou aretypalou sestavu, pokud by byly umisteny na farme. Pruzkum designu hlavy pro archetyp Hrdiny - mlady neskuseny mestsky chlapec, ktery musi najit svou oporu a stat se stabilnim, aby zachranil farmu pred zlym developeren a ziskal krasnou dojicku.
+Experimentování s archetypovým designem: počáteční návrh pro celou archetypovou sestavu, pokud by byly umístěny na farmě. Průzkum designu hlavy pro archetyp Hrdiny - mladý nezkušený městský chlapec, který musí najít svou oporu a stát se stabilním, aby zachránil farmu před zlým developerem a získal krásnou dojičku.
 
-Experimentalni skici - predekign Tima a pana Moky z animovaneho filmu Nocturna (2007) do stylu UPA a Disneyho.`,
+Experimentální skici - redesign Tima a pana Moky z animovaného filmu Nocturna (2007) do stylu UPA a Disneyho.`,
       },
     },
   },
