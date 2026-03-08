@@ -2,17 +2,25 @@
 
 /* ==========================================
    CSS VARIABLES & RESET
+   FONTS & GLOBAL
    ========================================== */
-:root {
-  --green: #2d7a2d;
-  --black: #111111;
-  --white: #ffffff;
-  --header-height: 64px;
-  --font-body: Arial, Helvetica, sans-serif;
-  --font-header: Impact, 'Arial Narrow', sans-serif;
+@font-face {
+  font-family: 'ImpactCustom';
+  src: url('/fonts/impact.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-*, *::before, *::after {
+:root {
+  --green: #00ff00; /* Signature Green */
+  --black: #000000;
+  --white: #ffffff;
+  --font-header: 'ImpactCustom', Impact, sans-serif;
+  --font-body: Arial, sans-serif;
+  --header-height: 80px;
+}
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,9 +31,11 @@ html {
 }
 
 body {
-  background: var(--white);
-  color: var(--black);
   font-family: var(--font-body);
+  background-color: var(--white);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -103,11 +113,29 @@ a {
   padding: 0;
 }
 
-.lang-toggle img.flag {
+.lang-toggle svg.flag {
   width: 28px;
   height: 18px;
-  object-fit: cover;
   border: 1px solid #ccc;
+}
+
+.resume-list {
+  list-style-type: disc;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--black);
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.resume-list li {
+  margin-bottom: 8px;
+}
+
+/* Make "(Main)" tags green */
+.resume-list li span.main-tag {
+  color: var(--green);
+  font-weight: bold;
 }
 
 .lang-toggle span {
@@ -248,9 +276,7 @@ a {
   color: var(--black);
   margin-top: 16px;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; /* Centered description */
+  text-align: left; /* Reverted to left alignment */
   white-space: pre-line;
   line-height: 1.7;
 }
@@ -457,29 +483,7 @@ a {
   letter-spacing: 2px;
 }
 
-.resume-list {
-  margin: 0;
-}
 
-.resume-list li {
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  color: var(--black);
-  line-height: 1.7;
-  padding-left: 12px;
-  position: relative;
-}
-
-.resume-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.75em;
-  width: 4px;
-  height: 4px;
-  background: var(--black);
-  border-radius: 50%;
-}
 
 /* ==========================================
    CONTACT PAGE
@@ -502,53 +506,77 @@ a {
   padding: 0;
   font-family: var(--font-body);
   font-size: 1rem;
-  color: var(--black);
-  transition: color 0.2s;
+  cursor: pointer;
+  padding: 12px;
+  text-align: left;
+  transition: transform 0.2s;
+  position: relative;
 }
 
 .contact-item:hover {
-  color: var(--green);
+  transform: translateX(8px);
 }
 
 .contact-icon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   flex-shrink: 0;
 }
 
 .contact-icon svg {
-  width: 28px;
-  height: 28px;
-  stroke: #444;
+  width: 100%;
+  height: 100%;
   fill: none;
+  stroke: #444; /* Minimalist dark grey */
   stroke-width: 1.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.contact-item:hover .contact-icon svg {
-  stroke: var(--green);
+  stroke-linecap: square;
+  stroke-linejoin: miter;
 }
 
 .contact-value {
-  font-size: 1rem;
-  color: inherit;
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: var(--black);
 }
 
 .copy-hint {
-  font-size: 0.78rem;
-  color: #888;
   font-family: var(--font-body);
-  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 60px;
+  margin-top: -8px;
 }
 
 .copy-toast {
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 0.8rem;
-  color: var(--green);
+  position: absolute;
+  right: -80px;
+  background: var(--green);
+  color: var(--white);
+  padding: 4px 12px;
   font-family: var(--font-body);
-  animation: fade-in-out 2s ease forwards;
+  font-size: 0.8rem;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+/* ==========================================
+   ABOUT ME PAGE IMAGE
+   ========================================== */
+.about-me-container {
+  position: relative; /* Context for absolute image */
+}
+
+.about-me-image {
+  position: absolute;
+  top: -85px; /* Aligned vertically with 'ABOUT ME' title */
+  right: 0; /* Aligned to right limit of text container */
+  width: 200px; /* Made smaller */
+  height: auto;
+  object-fit: contain;
+}
+
+.about-me-text {
+  max-width: 550px; /* Allow space for floating right image */
 }
 
 @keyframes fade-in-out {

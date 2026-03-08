@@ -2,16 +2,19 @@ import { useEffect, useCallback, useState, useRef } from 'react';
 
 export default function Lightbox({ images, startIndex, onClose }) {
   const [index, setIndex] = useState(startIndex);
-  const [zoomed, setZoomed] = useState(false);
+  const [scale, setScale] = useState(1);
   const overlayRef = useRef(null);
+  const imgRef = useRef(null);
 
-  const prev = useCallback(() => {
-    setZoomed(false);
+  const prev = useCallback((e) => {
+    if(e) e.stopPropagation();
+    setScale(1);
     setIndex(i => (i - 1 + images.length) % images.length);
   }, [images.length]);
 
-  const next = useCallback(() => {
-    setZoomed(false);
+  const next = useCallback((e) => {
+    if(e) e.stopPropagation();
+    setScale(1);
     setIndex(i => (i + 1) % images.length);
   }, [images.length]);
 
@@ -26,17 +29,26 @@ export default function Lightbox({ images, startIndex, onClose }) {
     return () => window.removeEventListener('keydown', handleKey);
   }, [prev, next, onClose]);
 
-  // Close on scroll outside the image
+  // Scroll to zoom
   useEffect(() => {
     const handleWheel = (e) => {
-      if (zoomed) return; // don't close while zoomed
-      onClose();
+      // Prevent page scrolling while lightbox is open
+      e.preventDefault();
+      
+      setScale(oldScale => {
+        let newScale = oldScale - e.deltaY * 0.005;
+        if (newScale < 0.5) newScale = 0.5;
+        if (newScale > 5) newScale = 5;
+        return newScale;
+      });
     };
-    window.addEventListener('wheel', handleWheel, { passive: true });
+    
+    // Bind the wheel event continuously to the window when lightbox is open
+    window.addEventListener('wheel', handleWheel, { passive: false });
     return () => window.removeEventListener('wheel', handleWheel);
-  }, [onClose, zoomed]);
+  }, []);
 
-  // Prevent background scroll
+  // Prevent background scroll conceptually (already handled mostly by wheel preventDefault)
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => { document.body.style.overflow = ''; };
@@ -48,21 +60,22 @@ export default function Lightbox({ images, startIndex, onClose }) {
 
   return (
     <div className="lightbox-overlay" ref={overlayRef} onClick={handleOverlayClick}>
-      <button className="lightbox-close" onClick={onClose} aria-label="Close">&#x2715;</button>
-
-      <div className="lightbox-inner">
+      <div className="lightbox-inner" onClick={handleOverlayClick}>
         {images.length > 1 && (
           <button className="lightbox-arrow prev" onClick={prev} aria-label="Previous">&#8592;</button>
         )}
 
-        <div
-          className={`lightbox-img-wrapper${zoomed ? ' zoomed' : ''}`}
-          onClick={() => setZoomed(z => !z)}
-        >
+        <div className="lightbox-img-wrapper" onClick={handleOverlayClick}>
           <img
+            ref={imgRef}
             src={images[index]}
             alt={`Image ${index + 1}`}
             draggable={false}
+            style={{ 
+               transform: `scale(${scale})`, 
+               transition: 'transform 0.1s ease-out',
+               cursor: 'default'
+            }}
           />
         </div>
 
@@ -72,7 +85,7 @@ export default function Lightbox({ images, startIndex, onClose }) {
       </div>
 
       <div className="lightbox-hint">
-        {index + 1} / {images.length} &nbsp;|&nbsp; Click to zoom &nbsp;|&nbsp; Scroll to close
+        {index + 1} / {images.length} &nbsp;|&nbsp; Scroll up/down to zoom &nbsp;|&nbsp; Click outside to close
       </div>
     </div>
   );
