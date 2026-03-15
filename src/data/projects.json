@@ -5,7 +5,7 @@
     "folderName": "LOTR",
     "displayName": "LOTR IN THE STYLE OF SATOSHI MATSUURA",
     "coverImage": "/images/LOTR/LOTR_FULL_LINEUP.jpg",
-    "cropFocus": "center",
+    "cropFocus": "center 10%",
     "images": [
       "/images/LOTR/LOTR_FULL_LINEUP.jpg",
       "/images/LOTR/Aragorn_And_Gimli.png",
@@ -36,7 +36,7 @@
     "folderName": "SCIENTISTS",
     "displayName": "SCIENTISTS",
     "coverImage": "/images/SCIENTISTS/scientists_whitebg.PNG",
-    "cropFocus": "center",
+    "cropFocus": "top",
     "images": [
       "/images/SCIENTISTS/scientists_whitebg.PNG",
       "/images/SCIENTISTS/exploration (002).PNG",
@@ -67,7 +67,7 @@
     "folderName": "WAKE UP CALL",
     "displayName": "WAKE UP CALL",
     "coverImage": "/images/WAKE UP CALL/WAKE_UP_CALL_charactersheet.PNG",
-    "cropFocus": "center",
+    "cropFocus": "top",
     "images": [
       "/images/WAKE UP CALL/WAKE_UP_CALL_charactersheet.PNG",
       "/images/WAKE UP CALL/WAKE_UP_CALL_concept1.PNG",
@@ -83,7 +83,7 @@
     "folderName": "ROBOT",
     "displayName": "D3AC0N",
     "coverImage": "/images/ROBOT/robot_exploration.PNG",
-    "cropFocus": "center",
+    "cropFocus": "top",
     "images": [
       "/images/ROBOT/robot_exploration.PNG",
       "/images/ROBOT/robot_costume_variations.PNG",
@@ -97,7 +97,7 @@
     "folderName": "VEGGIE SEA",
     "displayName": "VEGGIE SEA",
     "coverImage": "/images/VEGGIE SEA/design_exploration.PNG",
-    "cropFocus": "center",
+    "cropFocus": "center -20%",
     "images": [
       "/images/VEGGIE SEA/design_exploration.PNG",
       "/images/VEGGIE SEA/kalamrnka_turnaround.PNG",
@@ -112,7 +112,7 @@
     "folderName": "FISHMAN da FISHERMAN",
     "displayName": "FISHMAN THE FISHERMAN",
     "coverImage": "/images/FISHMAN da FISHERMAN/BOCOUNOVA_PUPPET_DESIGN.jpg",
-    "cropFocus": "center",
+    "cropFocus": "top",
     "images": [
       "/images/FISHMAN da FISHERMAN/BOCOUNOVA_PUPPET_DESIGN.jpg",
       "/images/FISHMAN da FISHERMAN/set_design.PNG",
@@ -150,7 +150,7 @@
     "folderName": "CHUUKO",
     "displayName": "CHUUKO TO ROHONESU",
     "coverImage": "/images/CHUUKO/chuuko_design.PNG",
-    "cropFocus": "center",
+    "cropFocus": "center 30%",
     "images": [
       "/images/CHUUKO/chuuko_design.PNG",
       "/images/CHUUKO/rohonesu_design.PNG",
