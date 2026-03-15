@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
-import { projects } from '../data/projects';
+import projects from '../data/projects.json';
 import Lightbox from '../components/Lightbox';
 
 export default function ProjectPage() {

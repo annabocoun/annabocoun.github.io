@@ -13,7 +13,7 @@ function ResumeList({ items }) {
   return (
     <ul className="resume-list">
       {items.map((item, i) => (
-        <li key={i}>{item}</li>
+        <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
       ))}
     </ul>
   );

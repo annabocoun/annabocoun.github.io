@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
-import { projects } from '../data/projects';
+import projects from '../data/projects.json';
 
 export default function HomePage() {
   const { t } = useLanguage();
