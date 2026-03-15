@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ import './index.css';
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter basename={import.meta.env.BASE_URL}>
         <ScrollToTop />
         <Header />
         <Routes>
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </LanguageProvider>
   );
 }

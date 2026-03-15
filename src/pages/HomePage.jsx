@@ -20,6 +20,7 @@ export default function HomePage() {
                 src={project.coverImage}
                 alt={projectT ? projectT.title : project.displayName}
                 loading="lazy"
+                style={project.cropFocus ? { objectPosition: project.cropFocus } : undefined}
               />
               <div className="project-strip-overlay">
                 <span className="project-strip-title">
