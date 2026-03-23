@@ -8,18 +8,18 @@
     "cropFocus": "center",
     "images": [
       "/images/LOTR/LOTR_FULL_LINEUP.jpg",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/LOTR/Aragorn_And_Gimli.png",
       "/images/LOTR/Frodo_And_Merry.png",
       "/images/LOTR/Galadriel.png",
       "/images/LOTR/Gollum.PNG",
       "/images/LOTR/Orc.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/LOTR/lotr_bg.PNG",
       "/images/LOTR/mordor_bg_illustration.PNG",
       "/images/LOTR/thumbnail_1.PNG",
       "/images/LOTR/thumbnail_2.jpg",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/LOTR/aragorn_sketches.PNG",
       "/images/LOTR/frodo_sketches.PNG",
       "/images/LOTR/galadriel_sketches.PNG",
@@ -27,7 +27,7 @@
       "/images/LOTR/gollum_sketches.PNG",
       "/images/LOTR/merry_sketches.PNG",
       "/images/LOTR/IMG_7145.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/LOTR/ref_1.png",
       "/images/LOTR/ref_2.png",
       "/images/LOTR/ref_3.png"
@@ -43,13 +43,13 @@
     "cropFocus": "center",
     "images": [
       "/images/SCIENTISTS/scientists_whitebg.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/SCIENTISTS/exploration (002).PNG",
       "/images/SCIENTISTS/exploration (003).PNG",
       "/images/SCIENTISTS/exploration (004).PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/SCIENTISTS/head_sketches (001).PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/SCIENTISTS/scientist_ref.jpg"
     ],
     "videos": []
@@ -77,7 +77,7 @@
     "cropFocus": "top",
     "images": [
       "/images/WAKE UP CALL/WAKE_UP_CALL_charactersheet.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/WAKE UP CALL/WAKE_UP_CALL_concept1.PNG",
       "/images/WAKE UP CALL/WAKE_UP_CALL_concept2.PNG"
     ],
@@ -95,7 +95,7 @@
     "images": [
       "/images/ROBOT/robot_exploration.PNG",
       "/images/ROBOT/robot_costume_variations.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/ROBOT/robot_ref.jpg"
     ],
     "videos": []
@@ -110,7 +110,7 @@
     "images": [
       "/images/VEGGIE SEA/keyframe_illustration.PNG",
       "/images/VEGGIE SEA/kalamrnka_turnaround.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/VEGGIE SEA/design_exploration.PNG",
       "/images/VEGGIE SEA/additions_to_veggie_sea.png"
     ],
@@ -128,7 +128,7 @@
       "/images/FISHMAN da FISHERMAN/PXL_20241218_103054346.jpg",
       "/images/FISHMAN da FISHERMAN/PXL_20241218_103325800.jpg",
       "/images/FISHMAN da FISHERMAN/PXL_20241218_123229714.jpg",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/FISHMAN da FISHERMAN/BOCOUNOVA_PUPPET_DESIGN.jpg",
       "/images/FISHMAN da FISHERMAN/set_design.PNG"
     ],
@@ -145,12 +145,12 @@
       "/images/KEGARE/girl_character_sheet.PNG",
       "/images/KEGARE/god_character_sheet.PNG",
       "/images/KEGARE/man_character_sheet.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/KEGARE/girl_man_turnaround.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/KEGARE/kegare_girl_sketches.PNG",
       "/images/KEGARE/kegare_god_sketches.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/KEGARE/KEGARE_POSTER.PNG",
       "/images/KEGARE/keyframe_illustration.PNG"
     ],
@@ -169,7 +169,7 @@
       "/images/CHUUKO/001.PNG",
       "/images/CHUUKO/002.PNG",
       "/images/CHUUKO/003.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/CHUUKO/chuuko_design.PNG",
       "/images/CHUUKO/rohonesu_design.PNG"
     ],
@@ -184,10 +184,10 @@
     "cropFocus": "top",
     "images": [
       "/images/various USE MOKA THOUGH/upa_disney_style_nocturna.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/various USE MOKA THOUGH/archetypes_exploration_lineup.PNG",
       "/images/various USE MOKA THOUGH/head_exploration.PNG",
-      "SEPARATOR"
+      "SEPARATOR",
       "/images/various USE MOKA THOUGH/IMG_6403.PNG",
       "/images/various USE MOKA THOUGH/IMG_6404.PNG"
     ],
