@@ -292,6 +292,14 @@ a {
   margin-top: 40px;
 }
 
+.project-separator {
+  grid-column: 1 / -1;
+  border: none;
+  border-top: 1px solid #d3d3d3; /* Light grey horizontal line */
+  margin: 32px 0 20px;
+  width: 100%;
+}
+
 .project-image-item {
   position: relative;
   cursor: pointer;

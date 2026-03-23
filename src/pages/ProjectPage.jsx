@@ -33,6 +33,19 @@ export default function ProjectPage() {
   const openLightbox = useCallback((index) => setLightboxIndex(index), []);
   const closeLightbox = useCallback(() => setLightboxIndex(null), []);
 
+  const gridItems = [];
+  const lightboxImages = [];
+
+  project.images.forEach((src) => {
+    if (src === 'SEPARATOR') {
+      gridItems.push({ type: 'separator' });
+    } else {
+      const lightboxIndex = lightboxImages.length;
+      lightboxImages.push(src);
+      gridItems.push({ type: 'image', src, lightboxIndex });
+    }
+  });
+
   return (
     <main className="main-content">
       <div className="project-page">
@@ -45,21 +58,26 @@ export default function ProjectPage() {
           <p className="project-page-description">{description}</p>
         )}
 
-        {project.images.length > 0 && (
+        {gridItems.length > 0 && (
           <div className="project-image-grid">
-            {project.images.map((src, i) => (
-              <div
-                key={i}
-                className="project-image-item"
-                onClick={() => openLightbox(i)}
-                role="button"
-                tabIndex={0}
-                onKeyDown={e => e.key === 'Enter' && openLightbox(i)}
-                aria-label={`View image ${i + 1}`}
-              >
-                <img src={src} alt={`${title} - image ${i + 1}`} loading="lazy" />
-              </div>
-            ))}
+            {gridItems.map((item, i) => {
+              if (item.type === 'separator') {
+                return <hr key={i} className="project-separator" />;
+              }
+              return (
+                <div
+                  key={i}
+                  className="project-image-item"
+                  onClick={() => openLightbox(item.lightboxIndex)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={e => e.key === 'Enter' && openLightbox(item.lightboxIndex)}
+                  aria-label={`View image ${item.lightboxIndex + 1}`}
+                >
+                  <img src={item.src} alt={`${title} - image ${item.lightboxIndex + 1}`} loading="lazy" />
+                </div>
+              );
+            })}
           </div>
         )}
 
@@ -79,7 +97,7 @@ export default function ProjectPage() {
 
       {lightboxIndex !== null && (
         <Lightbox
-          images={project.images}
+          images={lightboxImages}
           startIndex={lightboxIndex}
           onClose={closeLightbox}
         />
