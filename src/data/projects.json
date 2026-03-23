@@ -181,7 +181,7 @@
     "folderName": "various USE MOKA THOUGH",
     "displayName": "VARIOUS",
     "coverImage": "/images/various USE MOKA THOUGH/head_exploration.PNG",
-    "cropFocus": "center",
+    "cropFocus": "top",
     "images": [
       "/images/various USE MOKA THOUGH/upa_disney_style_nocturna.PNG",
       "SEPARATOR"
