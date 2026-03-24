@@ -9,11 +9,8 @@
     "images": [
       "/images/LOTR/LOTR_FULL_LINEUP.jpg",
       "SEPARATOR",
-      "/images/LOTR/Aragorn_And_Gimli.png",
-      "/images/LOTR/Frodo_And_Merry.png",
-      "/images/LOTR/Galadriel.png",
-      "/images/LOTR/Gollum.PNG",
-      "/images/LOTR/Orc.PNG",
+      "/images/LOTR/lotr_mains_replace.PNG",
+      "/images/LOTR/lotr_orcs_replace.PNG",
       "SEPARATOR",
       "/images/LOTR/lotr_bg.PNG",
       "/images/LOTR/mordor_bg_illustration.PNG",
@@ -59,10 +56,10 @@
     "slug": "batman",
     "folderName": "BATMAN",
     "displayName": "BATMAN IS THE BEST MAN",
-    "coverImage": "/images/BATMAN/BATMAN_DESIGN.jpg",
-    "cropFocus": "top",
+    "coverImage": "/images/BATMAN/batman_cover.PNG",
+    "cropFocus": "center",
     "images": [
-      "/images/BATMAN/BATMAN_DESIGN.jpg"
+      "/images/BATMAN/batman_sketch_replace.jpg"
     ],
     "videos": [
       "/images/BATMAN/BATMAN_IS_THE_BEST_MAN-FINAL.mov"
@@ -90,8 +87,8 @@
     "slug": "robot",
     "folderName": "ROBOT",
     "displayName": "D3AC0N",
-    "coverImage": "/images/ROBOT/robot_exploration.PNG",
-    "cropFocus": "top",
+    "coverImage": "/images/ROBOT/deacon_cover.PNG",
+    "cropFocus": "center",
     "images": [
       "/images/ROBOT/robot_exploration.PNG",
       "/images/ROBOT/robot_costume_variations.PNG",
