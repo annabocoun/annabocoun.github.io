@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
+import PdfViewer from '../components/PdfViewer';
 import projects from '../data/projects.json';
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
 
   return (
     <main className="main-content">
+      <PdfViewer />
       <div className="home-projects">
         {projects.map((project) => {
           const projectT = t.projects[project.id];
