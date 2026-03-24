@@ -118,8 +118,8 @@
     "slug": "fishman",
     "folderName": "FISHMAN da FISHERMAN",
     "displayName": "FISHMAN THE FISHERMAN",
-    "coverImage": "/images/FISHMAN da FISHERMAN/BOCOUNOVA_PUPPET_DESIGN.jpg",
-    "cropFocus": "top",
+    "coverImage": "/images/FISHMAN da FISHERMAN/FISHMAN_cover.PNG",
+    "cropFocus": "center",
     "images": [
       "/images/FISHMAN da FISHERMAN/PXL_20241218_103042262.jpg",
       "/images/FISHMAN da FISHERMAN/PXL_20241218_103054346.jpg",
