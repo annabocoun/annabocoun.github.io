@@ -57,7 +57,7 @@
     "folderName": "BATMAN",
     "displayName": "BATMAN IS THE BEST MAN",
     "coverImage": "/images/BATMAN/batman_cover.PNG",
-    "cropFocus": "center",
+    "cropFocus": "center 10%",
     "images": [
       "/images/BATMAN/batman_sketch_replace.PNG"
     ],
@@ -88,7 +88,7 @@
     "folderName": "ROBOT",
     "displayName": "D3AC0N",
     "coverImage": "/images/ROBOT/deacon_cover.PNG",
-    "cropFocus": "center",
+    "cropFocus": "center 10%",
     "images": [
       "/images/ROBOT/robot_exploration.PNG",
       "/images/ROBOT/robot_costume_variations.PNG",
@@ -103,7 +103,7 @@
     "folderName": "VEGGIE SEA",
     "displayName": "VEGGIE SEA",
     "coverImage": "/images/VEGGIE SEA/keyframe_illustration.PNG",
-    "cropFocus": "center",
+    "cropFocus": "center -10%",
     "images": [
       "/images/VEGGIE SEA/keyframe_illustration.PNG",
       "/images/VEGGIE SEA/kalamrnka_turnaround.PNG",
