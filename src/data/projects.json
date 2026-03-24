@@ -39,7 +39,7 @@
     "slug": "scientists",
     "folderName": "SCIENTISTS",
     "displayName": "SCIENTISTS",
-    "coverImage": "/images/SCIENTISTS/scientists_whitebg.PNG",
+    "coverImage": "/images/SCIENTISTS/SCIENTISTS_coverimage.PNG",
     "cropFocus": "center",
     "images": [
       "/images/SCIENTISTS/scientists_whitebg.PNG",
@@ -73,7 +73,7 @@
     "slug": "wake-up-call",
     "folderName": "WAKE UP CALL",
     "displayName": "WAKE UP CALL",
-    "coverImage": "/images/WAKE UP CALL/WAKE_UP_CALL_charactersheet.PNG",
+    "coverImage": "/images/WAKE UP CALL/WAKE-UP-CALL_coverimage.PNG",
     "cropFocus": "top",
     "images": [
       "/images/WAKE UP CALL/WAKE_UP_CALL_charactersheet.PNG",
@@ -106,12 +106,12 @@
     "folderName": "VEGGIE SEA",
     "displayName": "VEGGIE SEA",
     "coverImage": "/images/VEGGIE SEA/keyframe_illustration.PNG",
-    "cropFocus": "center -20%",
+    "cropFocus": "center",
     "images": [
       "/images/VEGGIE SEA/keyframe_illustration.PNG",
       "/images/VEGGIE SEA/kalamrnka_turnaround.PNG",
       "SEPARATOR",
-      "/images/VEGGIE SEA/design_exploration.PNG",
+      "/images/VEGGIE SEA/VEGGIE_SEA_edited.PNG",
       "/images/VEGGIE SEA/additions_to_veggie_sea.png"
     ],
     "videos": []
@@ -130,7 +130,7 @@
       "/images/FISHMAN da FISHERMAN/PXL_20241218_123229714.jpg",
       "SEPARATOR",
       "/images/FISHMAN da FISHERMAN/BOCOUNOVA_PUPPET_DESIGN.jpg",
-      "/images/FISHMAN da FISHERMAN/set_design.PNG"
+      "/images/FISHMAN da FISHERMAN/FISHMAN_SET_edited.PNG"
     ],
     "videos": []
   },
@@ -164,7 +164,7 @@
     "folderName": "CHUUKO",
     "displayName": "CHUUKO TO ROHONESU",
     "coverImage": "/images/CHUUKO/002.PNG",
-    "cropFocus": "center",
+    "cropFocus": "bottom 30%",
     "images": [
       "/images/CHUUKO/001.PNG",
       "/images/CHUUKO/002.PNG",
@@ -183,13 +183,13 @@
     "coverImage": "/images/various USE MOKA THOUGH/head_exploration.PNG",
     "cropFocus": "top",
     "images": [
-      "/images/various USE MOKA THOUGH/upa_disney_style_nocturna.PNG",
+      "/images/various USE MOKA THOUGH/IMG_6403.PNG",
+      "/images/various USE MOKA THOUGH/IMG_6404.PNG",
       "SEPARATOR",
       "/images/various USE MOKA THOUGH/archetypes_exploration_lineup.PNG",
       "/images/various USE MOKA THOUGH/head_exploration.PNG",
       "SEPARATOR",
-      "/images/various USE MOKA THOUGH/IMG_6403.PNG",
-      "/images/various USE MOKA THOUGH/IMG_6404.PNG"
+      "/images/various USE MOKA THOUGH/upa_disney_style_nocturna.PNG"
     ],
     "videos": []
   }
