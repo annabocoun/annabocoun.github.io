@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
-import PdfViewer from '../components/PdfViewer';
+import { Carousel } from "../components/Carousel";
+import { slides } from "../data/carouselData.json";
 import projects from '../data/projects.json';
 
 export default function HomePage() {
@@ -8,7 +9,9 @@ export default function HomePage() {
 
   return (
     <main className="main-content">
-      <PdfViewer />
+      <div className="App">
+        <Carousel data={slides} />
+      </div>
       <div className="home-projects">
         {projects.map((project) => {
           const projectT = t.projects[project.id];
